@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.btn-menu {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.img-container {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+.text-container {
+    display: inline-block;
+    margin-left: 52px;
+}
+
+h1 { 
+    width: 582px;
+    height: 164px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.btn-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .link-menu {
+        display: none;
+    }
+
+    .img-container {
+        position: relative;
+        top: 450px;        
+        display: block;
+        margin: 0 auto;
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .text-container {
+        position: relative;
+        width: 312px;
+        height: 288px;
+        display: block;
+        bottom: 200px;
+        margin: 0 auto;
+
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    p {
+        
+        width: 304px;
+        height: 165px;        
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 30px 0;
+
+    }
+
+    .btn-learn-more {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btn-menu {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+
+    }
+
+   
+   
+}
+
+
